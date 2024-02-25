@@ -113,7 +113,30 @@ class WebRTCDataChannel {
                     "stun:stun1.l.google.com:19302",
                     "stun:stun4.l.google.com:19302"
                 ]
-            }
+            },
+            {
+                urls: "stun:stun.relay.metered.ca:80",
+            },
+            {
+                urls: "turn:global.relay.metered.ca:80",
+                username: "620021756057fc86a6f5960d",
+                credential: "HgQEpqTJaLRRrhrW",
+            },
+            {
+                urls: "turn:global.relay.metered.ca:80?transport=tcp",
+                username: "620021756057fc86a6f5960d",
+                credential: "HgQEpqTJaLRRrhrW",
+            },
+            {
+                urls: "turn:global.relay.metered.ca:443",
+                username: "620021756057fc86a6f5960d",
+                credential: "HgQEpqTJaLRRrhrW",
+            },
+            {
+                urls: "turns:global.relay.metered.ca:443?transport=tcp",
+                username: "620021756057fc86a6f5960d",
+                credential: "HgQEpqTJaLRRrhrW",
+            },
         ]
     };
 
